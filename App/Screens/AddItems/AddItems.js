@@ -14,9 +14,6 @@ class AddTodo extends React.Component {
     };
   }
 
-  componentDidMount() {
-  }
-
   onChanged = text => {
     this.setState({text})
   }
